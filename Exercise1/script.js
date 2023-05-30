@@ -141,10 +141,12 @@ function createSVG() {
 
     $(document).ready(function () {
         $('#svg').click(function (event) {
+            console.log('tete');
             var rect = svg.getBoundingClientRect();
             var mouseX = event.clientX - rect.left;
             var mouseY = event.clientY - rect.top;
             if (mouseX > 400 && mouseX < 450 && mouseY > 30 && mouseY < 80 && isDay) {
+                console.log('gege');
                 skycolor = 'darkblue';
                 sunColor = 'white';
                 houseColor = 'darkred';
@@ -152,7 +154,7 @@ function createSVG() {
                 grassColor = 'darkgreen';
                 windowColor = 'yellow';
                 isDay = false;
-                console.log('halla');
+            
             }
             else if (mouseX > 400 && mouseX < 450 && mouseY > 30 && mouseY < 80 && !isDay) {
                 skycolor = 'paleturquoise';
@@ -162,7 +164,7 @@ function createSVG() {
                 grassColor = 'greenyellow';
                 windowColor = 'white';
                 isDay = true;
-                console.log('halla');
+        
             }
         })
     });
