@@ -28,14 +28,23 @@
         </div>
         <div class="containerSVG">
             <h2>SVG</h2>
-            <svg id="svg" width="500" height="400" ></svg>
+            <svg id="svg" width="500" height="400"></svg>
         </div>
-        <div class="bottom">
-            <div class="button">
-                Click me
-            </div>
+        <button class="toggle-button" onclick="toggleInfoWindow()">Toggle Info Window</button>
+        <div class="infoWindow" id="info-window">
+            <h1>Info Window</h1>
+            <section>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum."
+            </section>
         </div>
     </div>
+
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>

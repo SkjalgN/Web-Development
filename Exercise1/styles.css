@@ -1,57 +1,56 @@
-
-canvas{
+canvas {
     border: 1px solid black;
     background-color: #ffffff;
     margin: 0 auto;
     display: block;
 }
 
-svg{
+svg {
     border: 1px solid black;
     background-color: #ffffff;
     margin: 0 auto;
     display: block;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
 }
 
-.container1{
+.container1 {
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding:10%;
+    padding: 10%;
     padding-top: 0;
     background: linear-gradient(180deg, #ffffff 0%, #ffcece 100%);
-/*     border: 1px dashed black; */
+    /*     border: 1px dashed black; */
 }
 
-.headwhat{
+.headwhat {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     padding: 50px;
     padding-bottom: 0;
-/*     border: 1px dashed black; */
+    /*     border: 1px dashed black; */
     margin: 0;
 }
 
-.Intro{
+.Intro {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     width: 500px;
     padding-bottom: 50px;
     padding-top: 0;
-/*     border: 1px dashed black; */
+    /*     border: 1px dashed black; */
 }
 
-.containerCanvas{
+.containerCanvas {
     width: 100%;
     height: 100%;
     display: flex;
@@ -59,25 +58,51 @@ body{
     align-items: center;
     flex-direction: column;
     margin-bottom: 100px;
-/*     border: 1px dashed black; */
+    /*     border: 1px dashed black; */
 }
 
-.containerSVG{
+.containerSVG {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 100px;
-/*     border: 1px dashed black; */
+    margin-bottom: 50px;
+    /*     border: 1px dashed black; */
 }
 
-.bottom{
-    width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+
+.toggle-button {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.infoWindow {
+    position: fixed;
+    bottom: 0;
+
+    min-height: 200px;
+    width: 500px;
+    background: linear-gradient(180deg, #ffffff 0%, #ffcece 100%);
+    display: none;
+    z-index: 9998;
     flex-direction: column;
+    align-items: center;
+    padding: 10%;
+}
+
+.infoWindow h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }

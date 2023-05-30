@@ -309,9 +309,11 @@ function createSVG() {
     updateSVG();
 }
 
-
-
-
+function toggleInfoWindow() {
+    const infoWindow = document.getElementById('info-window');
+    infoWindow.style.display = infoWindow.style.display === 'flex' ? 'none' : 'flex';
+  }
 
 createCanvas();
 createSVG();
+
