@@ -20,7 +20,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Only did the first Assignment. This was purely html and css
+Only did the first Assignment. This was purely html, js, and css.
 
   <a>
     <img src="Exercise1/images/screen.png" alt="frontpage">
