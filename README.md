@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a>
-    <img src="webpage/images/logo.png" alt="Logo" height="80">
+    <img src="Exercise1/images/farmer.png" alt="Logo" height="80">
   </a>
 
   <h3 align="center"> Web Development Excercises</h3>
@@ -23,7 +23,7 @@
 Only did the first Assignment. This was purely html and css
 
   <a>
-    <img src="documents/img/Slide16_9-1.png" alt="frontpage">
+    <img src="Exercise1/images/screen.png" alt="frontpage">
   </a>
 
 <!-- GETTING STARTED -->
