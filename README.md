@@ -12,7 +12,7 @@
   <h3 align="center"> Web Development Excercises</h3>
 
   <p align="center">
-    Thought about taking this course remote in Australia, but found **cloud computing** which was basically the same but with cloud components. Therefore i descided to take that instead
+    Thought about taking this course remote in Australia, but found **cloud computing** which was basically the same but with cloud components. 
   </p>
 </div>
 
